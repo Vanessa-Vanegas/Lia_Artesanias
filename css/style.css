@@ -1,5 +1,19 @@
 body {
-    background-color: rgb(202, 241, 228);
+    background-color: rgb(176, 223, 226);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-size: medium;
+    font-weight: lighter;
+    line-height: 10px;
+}
+
+#logo{
+    visibility: visible;
+    position: static;
+    opacity: 1;
+    width: 1920px;
+    height: auto;
+    max-width: 50%;
+    max-height: 420px;
+    vertical-align: top;
 }
