@@ -1,27 +1,42 @@
-body {
-    background-color: rgb(176, 223, 226);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+header{
+    box-sizing: border-box;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 28px;
+    border-bottom: solid 3px indigo;
+    padding: 22px;
+    margin-bottom: 15px;
     text-align: center;
-    font-size: medium;
-    font-weight: lighter;
-    line-height: 10px;
 }
 
-#logo{
-    visibility: visible;
-    position: static;
+body {
+    box-sizing: border-box;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;    
+    background-attachment: fixed;    
     opacity: 1;
-    width: 1920px;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    line-height: 10px;
+    
+}
+
+#logo{  
+    box-sizing: border-box;
+    position: static;    
+    width: auto;
     height: auto;
-    max-width: 50%;
-    max-height: 420px;
-    vertical-align: top;
+    max-width: 30%;
+    max-height: 250px;
+    
+    
 }
 
 #canasto{
-    visibility: visible;
-    position: static;
-    opacity: 1;
+    box-sizing: border-box;
+    position: relative;    
     width: auto;
     height: auto;
     max-width: 50%;
@@ -30,9 +45,8 @@ body {
 }
 
 #lampara{
-    visibility: visible;
-    position: static;
-    opacity: 1;
+    box-sizing: border-box;   
+    position: relative;    
     width: auto;
     height: auto;
     max-width: 50%;
@@ -41,12 +55,37 @@ body {
 }
 
 #proceso{
-    visibility: visible;
-    position: static;
-    opacity: 1;
+    box-sizing: border-box;
+    position: relative;   
     width: auto;
     height: auto;
     max-width: 50%;
     max-height: 420px;
     vertical-align: top;
 }
+
+section {
+    box-sizing: border-box;
+    width: 50%;
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    margin-left: 25%;
+    padding-left: 12px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border: dashed 1px black;
+    border-radius: 50px;
+    text-align: center;
+    
+  }
+
+footer {
+    box-sizing: border-box;
+    background-color: rebeccapurple;
+    color: white;
+    border-top: solid 1px lightseagreen;
+    padding: 12px;
+    height: 40px;
+    text-align: center;
+ }
+
