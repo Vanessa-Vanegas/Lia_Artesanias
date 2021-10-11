@@ -17,3 +17,36 @@ body {
     max-height: 420px;
     vertical-align: top;
 }
+
+#canasto{
+    visibility: visible;
+    position: static;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 420px;
+    vertical-align: top;
+}
+
+#lampara{
+    visibility: visible;
+    position: static;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 420px;
+    vertical-align: top;
+}
+
+#proceso{
+    visibility: visible;
+    position: static;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 420px;
+    vertical-align: top;
+}
